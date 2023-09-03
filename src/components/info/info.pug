@@ -1,0 +1,5 @@
+mixin info({ description='', color='blue', style }={})
+  .info(class=color==='blue'?'info_color_blue':'info_color_green' style=style) 
+    img.info__img.info__img_plus(src='../../assets/images/plus.svg', alt='plus image')
+    img.info__img.info__img_minus.info_invisible(src='../../assets/images/minus.svg', alt='minus image')
+    span.info__description.info_invisible=description 
