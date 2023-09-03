@@ -1,9 +1,11 @@
 .wrapper {
-  width: 1920px;
+  max-width: 1920px;
+  min-width: 1280px;
   background-image: url('../../assets/images/main.jpg');
-  height: 100vh;
   background-size: cover;
   position: relative;
+  margin: 0 auto;
+  aspect-ratio: 16 / 9;
 }
 
 .title {
